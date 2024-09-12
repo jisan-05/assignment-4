@@ -1,5 +1,8 @@
 function waitingTime(waitingTimes, serialNumber) {
-  if (Array.isArray(waitingTimes) !== true || typeof serialNumber !== "number") {
+  if (
+    Array.isArray(waitingTimes) !== true ||
+    typeof serialNumber !== "number"
+  ) {
     return "Invalid Input";
   }
 
@@ -15,4 +18,4 @@ function waitingTime(waitingTimes, serialNumber) {
   return time_need;
 }
 
-console.log(waitingTime(7, 10));
+console.log(waitingTime([3, 5, 7, 11, 6], 10));

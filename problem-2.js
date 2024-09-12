@@ -8,4 +8,4 @@ function sendNotification(email) {
   return message;
 }
 
-console.log(sendNotification("zishan@gmail.com"));
+console.log(sendNotification("nadim.naem5@outlook.com"));

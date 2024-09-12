@@ -12,4 +12,4 @@ function checkDigitsInName(name) {
   return false;
 }
 
-console.log(checkDigitsInName("Raj"));
+console.log(checkDigitsInName("Raj67"));
