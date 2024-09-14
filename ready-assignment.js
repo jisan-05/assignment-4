@@ -69,3 +69,4 @@ function waitingTime(waitingTimes, serialNumber) {
 
   return time_need;
 }
+
