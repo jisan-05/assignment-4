@@ -19,3 +19,4 @@ function waitingTime(waitingTimes, serialNumber) {
 }
  
 console.log(waitingTime([3, 5, 7, 11, 6], 10));
+ 

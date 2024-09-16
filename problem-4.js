@@ -11,7 +11,7 @@ function calculateFinalScore(obj) {
   } else {
     return false;
   }
-}
+} 
 
 let obj = { name: "Rajib", testScore: 15, schoolGrade: 25, isFFamily: true };
 
