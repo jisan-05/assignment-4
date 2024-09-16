@@ -17,5 +17,5 @@ function waitingTime(waitingTimes, serialNumber) {
 
   return time_need;
 }
-
+ 
 console.log(waitingTime([3, 5, 7, 11, 6], 10));
